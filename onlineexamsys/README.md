@@ -1,5 +1,5 @@
 # topic
-通过JDBC的工具类和Servlet实现了简单的系统
+通过JDBC的工具类以及Dao类和Servlet实现了简单的系统
 
 完成了简单的
     用户信息注册
