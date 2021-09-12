@@ -1,0 +1,30 @@
+任务：在线考试管理系统中的用户信息管理模块
+
+子任务
+    用户信息注册
+    用户信息查询
+    用户信息删除
+    用户信息更新
+
+
+准备工作：
+    1.创建用户信息表User.frm
+    CREATE TABLE Users(
+
+
+        userId int primary key auto_increment,      #用户id
+        userName varchar(50),                       #用户名称
+        password varchar(50),                       #用户密码
+        sex char(1),                                #用户性别‘男’or‘女’
+        email varchar(50),                          #用户邮箱
+
+    )
+    auto_increment 自增序列 i++
+    插入时，如果不给定具体的id编号，根据auto_increment进行递增
+
+
+
+    2.在src下 com.reiuy.entity.Users 实体类
+
+    3.在src下引入一个工具类
+    com.reiuy.util.JdbcUtil工具类复用
