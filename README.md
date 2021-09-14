@@ -1,5 +1,7 @@
 # Javaweb
 servlet学习过程中的一些实例和源码
+
+![image](https://github.com/Reichitose/Javaweb/blob/main/%E4%BA%92%E8%81%94%E7%BD%91%E9%80%9A%E4%BF%A1.png)
 # 顺序分别为
 
 ## 基本原理
